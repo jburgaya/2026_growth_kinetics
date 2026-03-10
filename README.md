@@ -1,4 +1,4 @@
-# 2026 Growht Kinetics
+# 2026 Growth Kinetics
 Code for the analysis and plots of the growht curves and growht kinetics params obtention.
 
 # Input and Output data
