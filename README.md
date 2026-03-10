@@ -7,6 +7,8 @@ Data is OD measurements of differnet *S. pneumoniae* strains across different co
 **Input** : excel file with optical density (OD) measurements across time (h) for multiple samples and replicates.
 **Output** : `Growth_features_estimates.tsv`, estimated parameters for each replicate. `Growth_features_estimates_failed_samples.tsv`, list of replicates that failed.
 
+Values with negaitve OD were treated as 0.
+
 # Growth Kinetics analysis
 
 The script from [Chaguza](https://github.com/ChrispinChaguza/SpnGrowthKinetics/blob/main/growth_curves.R) has been adapted.
