@@ -31,5 +31,5 @@ For the fitting we masked to focus on main growth and plateau phases, and use mu
 
 Feature extraction includes: `delta.H`, max OD increae and `lag`, lag phase (OD first exceeds 1.5 * initial OD).
 
-
+The Chaguza script was using the observed OD data to extract lag, but because we have values close to 0 or 0 at the begining this leads to lag == 0. We instead used the fitted logisitic curve params and ocmpute threshold as 5% above the baseline avoiding values too close to zero.
 
