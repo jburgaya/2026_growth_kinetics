@@ -9,7 +9,7 @@ Data is OD measurements of differnet *S. pneumoniae* strains across different co
 
 # Growth Kinetics analysis
 
-The script from (Chaguza)[https://github.com/ChrispinChaguza/SpnGrowthKinetics/blob/main/growth_curves.R] has been adapted.
+The script from [Chaguza](https://github.com/ChrispinChaguza/SpnGrowthKinetics/blob/main/growth_curves.R) has been adapted.
 The pipeline processes microbial growth curve data, fits logistic growhth models, and extracts groeth parameters for each sample replicate.
 
 ## Model
