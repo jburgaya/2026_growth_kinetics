@@ -1,5 +1,5 @@
 # 2026 Growth Kinetics
-Code for the analysis and plots of the growht curves and growht kinetics params obtention.
+Code for the analysis and plots of the growth curves and growht kinetics params obtention.
 
 # Input and Output data
 Data is OD measurements of differnet *S. pneumoniae* strains across different conditions.
