@@ -12,7 +12,7 @@ Values with negaitve OD were treated as 0.
 # Growth Kinetics analysis
 
 The script from [Chaguza](https://github.com/ChrispinChaguza/SpnGrowthKinetics/blob/main/growth_curves.R) has been adapted.
-The pipeline processes microbial growth curve data, fits logistic growhth models, and extracts growth parameters for each sample replicate.
+The pipeline processes microbial growth curve data, fits logistic growth models, and extracts growth parameters for each sample replicate.
 
 ## Model
 
