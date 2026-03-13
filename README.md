@@ -23,10 +23,10 @@ The pipeline processes microbial growth curve data, fits logistic growth models,
 Where:
 
 ```
-L0 : initial OD
 L : max OD increase
 r : growth rate
-t0 : inflection point 
+t0 : inflection point
+L0 : initial OD
 ```
 
 For the fitting we masked to focus on main growth and plateau phases, and use multiple optimization methods: `BFGS`, `Nelder-Mead`, `CG`, `Powell`, `L-BFGS-B`, finally refined the best fit using `least_quares`.
